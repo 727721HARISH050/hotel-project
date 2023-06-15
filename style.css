@@ -1,0 +1,180 @@
+:root
+{
+    --red:crimson;
+    --green:#53BF9D;
+    --yellow:#FFC54D;
+    --white:whitesmoke;
+}
+
+
+
+
+body{
+   
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.landing
+{
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+    background-position: center;
+}
+header a{
+    text-decoration: none;
+    color:var(--yellow);
+    
+}
+header
+{
+    display: flex;
+    padding: 1em;
+}
+#logo
+{
+    flex: 3;
+    font-size: 1.5em;
+}
+nav{
+    align-items: center;
+    flex: 2;
+    display: flex;
+}
+#menu
+{
+    flex: 1;
+}
+#loca
+{
+    flex:1;
+}
+header :hover
+{
+    color: var(--green);
+}
+/* .maintext
+{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+   
+    padding:2em;
+    justify-content: center;
+    border: 1px solid;
+    
+} */
+.maintext div{
+    margin-top: .75em;
+    padding: 10px;
+   
+}
+.tagline1
+{
+    color: var(--red);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2
+{
+    color: var(--yellow);
+}
+.maintext button
+{
+    width: 20vw;
+    margin-top: 0.5em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: var(--green);
+    color: var(--white);
+    
+}
+.button
+{
+   display: flex;
+   justify-content: center;
+}
+ #menuheading,#locheading 
+{
+    color:var(--red);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    background:linear-gradient(to right, rgb(155 155 155),rgb(100 100 100),rgb(11, 10, 10));
+}
+.menu
+{
+    display: grid;
+    
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    color: var(--white);
+    background:linear-gradient(to right, rgb(155 155 155),rgb(100 100 100),rgb(11, 10, 10));
+}
+.menu th
+{   display: flex;
+    justify-content: center;
+    color: var(--green);
+    font-size: 1.5em;
+    margin-top: .8em;
+    margin-bottom: .8em;
+}
+table{
+    width: 100%;
+}
+.menu td:nth-child(1)
+{
+    justify-content: left;
+    flex: 1;
+}
+.menu td:nth-child(2)
+{
+    justify-content: right;
+}
+.maincourse
+{
+    grid-row: span 2;
+}
+
+.location
+{ 
+     display: flex;
+   flex-wrap: wrap;
+    color: var(--white);
+    background:linear-gradient(to right, rgb(155 155 155),rgb(100 100 100),rgb(11, 10, 10));
+}
+.location h2
+{
+   color: var(--green);
+   margin: .8em;
+}
+.location div
+{
+flex: 1;
+
+}
+.mullainagar
+{
+    min-width:220px;
+}
+.social-menu,#copyright
+{
+    padding: 10px;
+    background:linear-gradient(to right, rgb(155 155 155),rgb(100 100 100),rgb(11, 10, 10));
+}
+.social-menu  div{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.contact a
+{
+    padding: 10px;
+}
+#copyright
+{
+    display: flex;
+    justify-content: center;
+}
